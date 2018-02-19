@@ -14,7 +14,7 @@
                 <div v-html="cleanDeskripsi"></div>
             </div>
             <div class="card-footer">
-                <a :href="'https://incubator.wikimedia.org/wiki/'+kode" target="_blank" class="btn btn-primary">Visit Wikimedia</a>
+                <a :href="'https://incubator.wikimedia.org/wiki/'+kode" target="_blank" class="btn btn-primary">View on Wikimedia</a>
             </div>
         </div>
     </div>

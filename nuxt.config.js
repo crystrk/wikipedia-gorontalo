@@ -3,14 +3,14 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'wikipedia-gorontalo',
+    title: 'Wikipedia Gorontalo',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Wikipedia Gorontalo' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: 'https://picturepan2.github.io/spectre/img/spectre-logo.svg' }
     ]
   },
   /*
@@ -30,6 +30,7 @@ module.exports = {
   axios: {
     // proxyHeaders: false
   },
+  router: { base: '/wikipedia-gorontalo/' },
   build: {
     /*
     ** Run ESLint on save

@@ -15,12 +15,10 @@
         <div class="card" v-for="(word, index) in filterResults" :key="index">
             <div class="card-header">
                 <div class="card-title h5">
-                    <nuxt-link :to="'/detail/'+word.pageid" class="card-link tooltip tooltip-right" data-tooltip="klik detail">{{ word.judul }}</nuxt-link>
+                    <nuxt-link :to="'/detail/'+word.pageid" class="card-link tooltip tooltip-right" data-tooltip="lihat detail">{{ word.judul }}</nuxt-link>
                 </div>
                 <div class="card-subtitle text-gray">
-                    <a :href="'https://incubator.wikimedia.org/wiki/'+word.title" class="card-sublink tooltip tooltip-bottom" data-tooltip="visit wikimedia link" target="_blank">
-                        https://incubator.wikimedia.org/wiki/{{ word.title }}
-                    </a>
+                    https://incubator.wikimedia.org/wiki/{{ word.title }}
                 </div>
             </div>
             <div class="card-body">

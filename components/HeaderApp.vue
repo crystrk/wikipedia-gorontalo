@@ -9,7 +9,7 @@
                     WikiGo
                 </section>
                 <section class="navbar-section">
-                    <a href="https://github.com/crystrk" target="_blank" class="btn btn-link">GitHub</a>
+                    <a href="https://github.com/crystrk/wikipedia-gorontalo" target="_blank" class="btn btn-link">GitHub</a>
                 </section>
             </header>
         </div>
