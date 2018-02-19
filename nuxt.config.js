@@ -30,7 +30,6 @@ module.exports = {
   axios: {
     // proxyHeaders: false
   },
-  router: { base: '/wikipedia-gorontalo/' },
   build: {
     /*
     ** Run ESLint on save
@@ -45,5 +44,8 @@ module.exports = {
         })
       }
     }
+  },
+  router: {
+    base: '/wikipedia-gorontalo/'
   }
 }
