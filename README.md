@@ -18,6 +18,8 @@ $ npm start
 
 # generate static project
 $ npm run generate
+
+# copy _nuxt folder to root when deploy on github page
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
