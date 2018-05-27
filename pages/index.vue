@@ -6,7 +6,7 @@
             <button class="btn btn-primary input-group-btn btn-lg" @click="searching"><i class="icon icon-search"></i> Cari</button>
         </div>
         <small class="float-right">
-            Powered By API <a href="https://incubator.wikimedia.org/wiki/Wp/gor/Halaman_Bungaliyo" target="_blank">Wikipedia Gorontalo</a>
+            Powered By API <a href="https://gor.wikipedia.org/wiki/Halaman_Bungaliyo" target="_blank">Wikipedia Gorontalo</a>
         </small>
 
         <br><br>
@@ -18,7 +18,7 @@
                     <nuxt-link :to="'/detail/'+word.pageid" class="card-link tooltip tooltip-right" data-tooltip="lihat detail">{{ word.judul }}</nuxt-link>
                 </div>
                 <div class="card-subtitle text-gray">
-                    https://incubator.wikimedia.org/wiki/{{ word.title }}
+                    https://gor.wikimedia.org/wiki/{{ word.title }}
                 </div>
             </div>
             <div class="card-body">
@@ -69,7 +69,7 @@ export default {
         searching() {
             this.newSearch = true
             this.isLoading = true
-            let url = 'https://incubator.wikimedia.org/w/api.php?origin=*&action=query&list=search&format=json&srsearch=Wp/gor/'+this.keyword
+            let url = 'https://gor.wikipedia.org/w/api.php?origin=*&action=query&list=search&format=json&srsearch='+this.keyword
             this.$axios.$get(url)
                 .then(res => {
                     this.results = res.query.search

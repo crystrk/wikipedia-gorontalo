@@ -46,6 +46,7 @@ module.exports = {
     }
   },
   router: {
-    base: '/wikipedia-gorontalo/'
+    base: '/wikipedia-gorontalo/' /* production -- npm run generate */
+    // base: '/' /* dev */
   }
 }

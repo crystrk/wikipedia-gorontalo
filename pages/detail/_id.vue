@@ -8,13 +8,13 @@
             </div>
             <div class="card-header">
                 <div class="card-title h5">{{ judul }}</div>
-                <div class="card-subtitle text-gray">https://incubator.wikimedia.org/wiki/{{ kode }}</div>
+                <div class="card-subtitle text-gray">https://gor.wikipedia.org/wiki/{{ kode }}</div>
             </div>
             <div class="card-body">
                 <div v-html="cleanDeskripsi"></div>
             </div>
             <div class="card-footer">
-                <a :href="'https://incubator.wikimedia.org/wiki/'+kode" target="_blank" class="btn btn-primary">View on Wikimedia</a>
+                <a :href="'https://gor.wikipedia.org/wiki/'+kode" target="_blank" class="btn btn-primary">View on Wikipedia</a>
             </div>
         </div>
     </div>
@@ -60,7 +60,7 @@ export default {
     methods: {
         fetchDetail() {
             this.isLoading = true
-            let url = 'https://incubator.wikimedia.org/w/api.php?origin=*&action=parse&format=json&pageid='+this.$route.params.id
+            let url = 'https://gor.wikipedia.org/w/api.php?origin=*&action=parse&format=json&pageid='+this.$route.params.id
             this.$axios.$get(url)
                 .then(res => {
                     // console.log(res)

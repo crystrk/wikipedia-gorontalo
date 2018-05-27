@@ -11,7 +11,7 @@
             </span>
             +
             <span class="tooltip" data-tooltip="API Wikipedia Gorontalo">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Incubator-logo.svg/24px-Incubator-logo.svg.png" class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Wikipedia-logo-v2-wordmark.svg/135px-Wikipedia-logo-v2-wordmark.svg.png" class="logo">
             </span>
             by <a href="https://twitter.com/crystrk" target="_blank" class="tooltip" data-tooltip="Crystal K">@crystrk</a>
         </div>
